@@ -1,6 +1,6 @@
 start_time <- Sys.time()
 library(tidyverse)
-data <- read.csv("C:\\Users\\dopha\\Documents\\DataMiningProject\\full_grouped.csv")
+data <- read.csv("full_grouped.csv")
 class(data)
 nrow(data)
 data
